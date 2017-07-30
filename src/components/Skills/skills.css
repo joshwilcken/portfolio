@@ -1,0 +1,35 @@
+.skillsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillswrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0 auto;
+}
+.skillsGrid {
+    width: 85vw;
+    height: 600px;
+    display: grid;
+    align-self: center;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.skillsGrid div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 125px;
+    width: 125px;
+}
+
