@@ -1,0 +1,27 @@
+.headerWrapper {
+    margin: 0 auto;
+    position: fixed;
+    background: #B2DDF5;
+    height: 75px;
+    width: 100%;
+    z-index: 45;
+    color: white;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    
+}
+.headerWrapper h1 {
+    flex: 1;
+    width: 65%;
+    margin-left: 8%;
+}
+.headerWrapper div {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerWrapper p {
+    font-size: 20px;
+}

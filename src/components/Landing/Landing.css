@@ -1,0 +1,14 @@
+.landingBackground {
+    background: url('../../Images/christopher-gower-291246.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+    margin-top: 0px;
+    opacity: .9;
+}
+h2 {
+    color: red;
+}
