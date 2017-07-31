@@ -4,7 +4,7 @@ import './skills.css'
 class Skills extends Component {
     render() {
         return (
-            <div name='#skills'>
+            <div>
                 <div className='skillsTitle'>
                     <h1>Skills</h1>
                 </div>
