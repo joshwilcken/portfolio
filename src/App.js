@@ -9,6 +9,7 @@ import Parellax from './components/Parellax/Parellax';
 import Projects from './components/Projects/Projects';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
+import Footer from './components/Footer/Footer'
 
 
 configureAnchors({offset: -70, scollDuration: 5000})
@@ -26,6 +27,7 @@ class App extends Component {
         <ScrollableAnchor id={'skills'}><Skills /></ScrollableAnchor>
         <Parellax />
         <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
+        <Footer />
       </div>
 
     );
