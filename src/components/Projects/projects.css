@@ -1,22 +1,19 @@
-.projects {
-    width: 100vw;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-
-}
-
-.projects h1 {
+.projectTitle {
     margin-top: 20px;
     font-size: 40px;
+    text-align: center;
 }
-
+.projects {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
 .imageContainer {
     position: relative;
-    width: 50%;
+    width: 40vw;
 }
 .hoverImage {
   display: block;

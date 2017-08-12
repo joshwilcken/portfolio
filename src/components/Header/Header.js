@@ -17,7 +17,14 @@ class Header extends Component {
                 </div>
                 <div className='ham'>
                     <h1>Joshua Wilcken</h1>
-                    <a><img src={require('../../Images/if_menu-alt_134216.svg')} /></a>
+                    <div className='dropdown'>
+                        <a><img src={require('../../Images/if_menu-alt_134216.svg')} className='dropbtn'/></a>
+                        <div className='dropdown-content'>
+                            <a href='#about'><p>About</p></a>
+                            <a href='#skills'><p>Skills</p></a>
+                            <a href='#projects'><p>Projects</p></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

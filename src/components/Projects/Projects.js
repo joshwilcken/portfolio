@@ -7,8 +7,8 @@ class Projects extends Component {
     render() {
         return (
             <div>
+                <h1 className='projectTitle'>Projects</h1>
                 <div className='projects'>
-                    <h1>Projects</h1>
                     <div className='imageContainer'>
                         <img className='hoverImage' src={require("../../Images/ChaseLandingScreenshot.png")} alt="Chase"/>
                         <div className='overlay'>
