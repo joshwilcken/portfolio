@@ -1,19 +1,25 @@
+.projectsWrapper {
+    background: #fafafa;
+    overflow: hidden;
+}
 .projectTitle {
-    margin-top: 20px;
     font-size: 40px;
     text-align: center;
+    background: #fafafa;
 }
 .projects {
     width: 100vw;
-    height: 600px;
+    height: 800px;
+    background: #fafafa;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 100px;
 }
 .imageContainer {
     position: relative;
     width: 40vw;
+    height: auto;
 }
 .hoverImage {
   display: block;

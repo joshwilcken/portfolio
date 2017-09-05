@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-size: 30px;
+    background: #fafafa;
 }
 .skillswrapper {
     width: 100vw;
+    background: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,5 +44,8 @@ h1 {
 svg {
     height: 125px;
     width: 125px;
+}
+.react {
+    fill: #61DAFB;
 }
 
