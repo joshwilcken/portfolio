@@ -3,8 +3,7 @@ import './jumbotron.css';
 import Typist from 'react-typist';
 
 
-
-class Jumbotron extends Component {
+export default class Jumbotron extends Component {
     render() {
         return (
             <div>
@@ -18,4 +17,3 @@ class Jumbotron extends Component {
     }
 }
 
-export default Jumbotron;

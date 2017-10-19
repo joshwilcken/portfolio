@@ -3,7 +3,7 @@ import './Header.css'
 import ScrollableAnchor from 'react-scrollable-anchor';
 import App from '../../App'
 
-class Header extends Component {
+export default class Header extends Component {
     render() {
         return (
             <div>
@@ -30,5 +30,3 @@ class Header extends Component {
         );
     }
 }
-
-export default Header;

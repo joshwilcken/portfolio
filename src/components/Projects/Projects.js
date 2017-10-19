@@ -15,8 +15,7 @@ class Projects extends Component {
                         youTubeLink={"https://www.youtube.com/watch?v=n25mskTcKIg&amp;t=7s"}
                         projectFramework={"React"}
                         projectBackend={"NodeJS"}
-                        projectDatabase={"PostgreSQL"}
-                        />
+                        projectDatabase={"PostgreSQL"}/>
                     <Project 
                         image={require("../../Images/PaperTradeScreenshot.png")}
                         projectName={"Paper Trade Application"}

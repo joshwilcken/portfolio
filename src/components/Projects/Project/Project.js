@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './projects.css';
+import '../projects.css';
 
 export default class Project extends Component {
     render() {
@@ -15,7 +15,7 @@ export default class Project extends Component {
                             <li>{this.props.projectDatabase}</li>
                         </ul>
                     </div>
-                    <a href={this.props.link}><div className='hoverTextLeft'>Site</div></a>
+                    <a href={this.props.projectLink}><div className='hoverTextLeft'>Site</div></a>
                     <a href={this.props.youTubeLink}><div className='hoverTextRight'>Video Tour</div></a>
                 </div>
             </div>

@@ -4,9 +4,7 @@ import './parellax.css'
 class Parellax extends Component {
     render() {
         return (
-            <div className='parellax'>
-                
-            </div>
+            <div className='parellax'></div>
         );
     }
 }
